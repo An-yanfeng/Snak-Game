@@ -1,0 +1,80 @@
+body{
+    width:100px;
+    height:100px;
+    /*background:url(../img/bj.jpg);*/
+}
+body img{
+    width:1340px;
+    height:650px;
+}
+
+
+
+.sence{
+    /*box-shadow:0 0 10px black inset;*/
+    width:620px;
+    height:590px;
+    border-right:none;
+    border-bottom:none;
+    /*background-color:black;*/
+    position: absolute;
+    top:50px;
+    left:365px;
+}
+.block{
+    width:30px;
+    height:30px;
+    margin:0 1px 1px 0;
+    float:left;
+    /*background:#ABF32D;*/
+/*opacity: 0.4;*/
+}
+.next1 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    background: red;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+#sl{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top:200px;
+    left: 450px;
+    z-index: 8888;
+    display: none;
+    cursor: pointer;
+}
+#sl img{
+    width: 400px;
+    height: 300px;
+}
+.over{
+    width:121px;
+    height:179px;
+    float: left;
+    position: absolute;
+    top:110px;
+     left:260px;
+     color:#000;
+     font-size:23px;
+     font-weight: bold;
+    text-align: center;
+    line-height:63px;
+}
+#gb{
+    width:60px;
+    height:15px;
+    position: absolute;
+    top:250px;
+    left:280px;
+    color:#000;
+    font-size:23px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 999;
+}
